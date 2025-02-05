@@ -1,12 +1,15 @@
 .header{
     display:flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 .header__logo{
+    align-self: center;
     max-width: 255px;
-    margin-top:10px;
-    padding-bottom:92px;
+    height:59px;
+    margin-top:34px;
+
 }
 
 .header__content{
