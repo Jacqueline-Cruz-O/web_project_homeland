@@ -1,0 +1,15 @@
+.gallery{
+display: flex;
+justify-content: center;
+margin: 43px auto 43px auto;
+max-width: 1184px;
+width: 100%;
+}
+
+.gallery__grid{
+  width: 284px;
+  height: 213px;
+  grid-column: 1fr 1fr 1fr 1fr;
+  grid-row: 1fr 1fr;
+
+}
